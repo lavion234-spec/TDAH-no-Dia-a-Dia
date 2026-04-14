@@ -395,8 +395,15 @@
   <!-- ===== OFERTA ===== -->
   <section class="section offer" id="oferta">
     <div class="container offer__inner text-center">
-      <p class="section__eyebrow" style="color: #a78bfa; margin-bottom: 40px;">⚡ Oferta especial por tempo limitado</p>
 
+      <!-- Cabeçalho da oferta -->
+      <div class="offer__header fade-in">
+        <span class="offer__badge-limited">🔥 OFERTA POR TEMPO LIMITADO</span>
+        <h2 class="offer__headline">Recupere seu Foco e Transforme sua Rotina</h2>
+        <p class="offer__subheadline">Comece hoje com o guia completo baseado em neurociência — por menos do que um café por semana.</p>
+      </div>
+
+      <!-- Contador regressivo -->
       <div class="offer__countdown fade-in">
         <div class="countdown-unit">
           <span class="countdown-unit__val" id="cd-h">00</span>
@@ -414,16 +421,26 @@
         </div>
       </div>
 
+      <!-- Card principal -->
       <div class="offer__card fade-in">
-        <p class="offer__card-title">Você está recebendo</p>
+
+        <!-- Faixa de desconto -->
+        <div class="offer__discount-banner">72% OFF</div>
+
+        <p class="offer__card-title">📘 E-BOOK DIGITAL</p>
         <p class="offer__card-book">TDAH no Dia a Dia: Como Reconhecer os Sinais e Criar uma Rotina com Foco e Organização</p>
 
+        <!-- Bloco de preço -->
         <div class="offer__price-block">
-          <p class="offer__price-original">De R$79,90</p>
+          <div class="offer__price-row">
+            <p class="offer__price-original">De <s>R$59,90</s></p>
+            <span class="offer__off-tag">72% OFF</span>
+          </div>
           <p class="offer__price-main"><sup>R$</sup>16<sup>,90</sup></p>
           <p class="offer__price-installment">Pagamento único · acesso para sempre</p>
         </div>
 
+        <!-- Benefícios inclusos -->
         <ul class="offer__includes">
           <li>E-Book completo em PDF (10 módulos)</li>
           <li>Plano de transformação de 30 dias incluso</li>
@@ -432,20 +449,35 @@
           <li>Acesso imediato após o pagamento</li>
         </ul>
 
-        <a href="https://pay.kirvano.com/38a88a67-a1e7-48a9-afdb-6c4412027afc" class="btn btn--primary btn--lg btn--pulse btn--full">
+        <!-- CTA principal -->
+        <a href="https://pay.kirvano.com/38a88a67-a1e7-48a9-afdb-6c4412027afc" class="btn btn--primary btn--lg btn--pulse btn--full offer__cta-btn">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
           Garantir meu acesso agora — R$16,90
         </a>
+        <p class="offer__cta-sub">⏳ Oferta encerra em breve. Não perca!</p>
 
-        <div class="offer__ssl">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
-          Pagamento 100% seguro via Criptografia SSL
+        <!-- Selos de segurança -->
+        <div class="offer__seals">
+          <div class="offer__seal">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+            Compra Segura
+          </div>
+          <div class="offer__seal">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Acesso Imediato
+          </div>
+          <div class="offer__seal">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Garantia 7 dias
+          </div>
         </div>
 
+        <!-- Escassez -->
         <div class="offer__urgency">
-          🔥 Apenas <strong style="color:#ffa94d; margin: 0 4px;">37 vagas</strong> restantes neste preço
+          🔥 Apenas <strong>37 vagas</strong> restantes neste preço
         </div>
       </div>
+
     </div>
   </section>
 
