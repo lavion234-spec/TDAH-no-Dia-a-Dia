@@ -1,0 +1,7 @@
+# assets/
+
+Pasta para armazenar recursos estáticos do projeto:
+
+- `images/`  — Imagens e fotos
+- `icons/`   — Ícones SVG/PNG
+- `fonts/`   — Fontes locais (se necessário)
